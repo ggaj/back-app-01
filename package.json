@@ -20,8 +20,8 @@
    "scripts": {
       "start": "ts-node src/index.ts",
       "dev": "nodemon",
-      "tsc": "tsc",
-      "prod": "tsc && node ./build/index.js"
+      "build": "tsc",
+      "prod": "node ./build/index.js"
 
    }
 }
