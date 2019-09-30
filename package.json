@@ -5,8 +5,7 @@
    "devDependencies": {
       "@types/node": "^8.0.29",
       "nodemon": "^1.19.2",
-      "ts-node": "3.3.0",
-      "typescript": "3.3.3333"
+      "ts-node": "3.3.0"
    },
    "dependencies": {
       "body-parser": "^1.19.0",
@@ -15,7 +14,8 @@
       "morgan": "^1.9.1",
       "pg": "^7.3.0",
       "reflect-metadata": "^0.1.10",
-      "typeorm": "0.2.19"
+      "typeorm": "0.2.19",
+      "typescript": "3.3.3333"
    },
    "scripts": {
       "start": "ts-node src/index.ts",
