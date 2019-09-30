@@ -1,7 +1,7 @@
 import { createConnection } from "typeorm";
 import { Produto } from "../entity/Produto";
 
-const cfg = require('../../ormconfig.json');
+const cfg = require('../../ormconfig');
 
 export default {
   createConnection: async () => {
