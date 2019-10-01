@@ -33,8 +33,8 @@ Routes.forEach(route => {
     });
 });
 
-app.listen(config.port_api, '0.0.0.0', async () => {
-    console.log(`Api initilze in port ${config.port_api}`);
+app.listen(config.port, '0.0.0.0', async () => {
+    console.log(`Api initilze in port ${config.port}`);
     try {
        await conneciton.createConnection();
     } catch (error) {

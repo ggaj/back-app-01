@@ -1,10 +1,10 @@
 module.exports = {
    "type": "postgres",
-   host: process.env.HOST || "localhost",
+   host: "ec2-107-22-160-185.compute-1.amazonaws.com",
    port: 5432,
-   username: process.env.USERNAME || "postgres",
-   password: process.env.PASSWORD || "postgres",
-   database: process.env.DATABASE || "postgres",
+   username: "ibvaqxgbjjplro",
+   password: "442e41c17000f9032010e7aa61a5b1fbecb9990d515949fca26d0af9f64fa6e3",
+   database: "d7512gmih12op2",
    "synchronize": true,
    "logging": false,
    "entities": [
